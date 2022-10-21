@@ -10,10 +10,10 @@ for(let i=1;i<=50;i++)
     }
     if(count==2)
     {
-      console.log(i, " is Prime");
+      console.log(i, " is Prime number");
     }
     else
     {
-      console.log(i, " is not Prime");
+      console.log(i, " is not Prime number");
     }
   }

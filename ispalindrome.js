@@ -6,16 +6,16 @@ let count=0;
     {
         let x=str[i];
         let y=str[j-i];
-        if(x==y)
+        if(y==x)
         {
             count=count+1;
         }
     }
     if(count>=(str.length/2))
     {
-        console.log("Yes");
+        console.log("true");
     }
     else
     {
-        console.log("No");
+        console.log("false");
     }
